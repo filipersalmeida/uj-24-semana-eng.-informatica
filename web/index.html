@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!--ADVANCED TASKS:
+- Can you create a form (with data validation - ask someone what this means) to receive contact inquiries?
+- Can you add a section for a blog with several articles?
+- Can you implement a FAQ section on the page?
+- (USING JS) Can you change the text of a paragraph after form submission?
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ajudo em FQ</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Marco Pereira</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Pedro Dias</h2>
+            <!-- UPDATE THIS -->
+            <p>Olá a todos os meus bloggers, estou aqui para vos ensinar a estudar para FQ de 10 e 11 ano. </p>
+            <!-- ADD AN IMAGE HERE -->
+        </section> 
+        <img id="prof" src="profmarcofq.jpg" alt="maior prof de fq">
+        <p>Este é o meu idolo! E vai ser o vosso tambem.</p>
+        <section id="hobbies">
+            
+            <h2>FAQ</h2>
+            <p>"Os ensinamentos são pagos?"</p>
+            <p>R: Até à data não se paga.</p>
+
+            <p>"Como posso submeter o meu contacto para futuros contactos? "</p>
+            <p>R:Completa Submeter Contacto.</p>
+            
+          
+
+     
+         <section id="contact">
+             <h2>Contactos</h2>
+            <p>Contacta alguns alunos do prof Marco!</p>
+            <table id = "tabela" > 
+                <tr>
+                  <th>Nome</th>
+                  <th>Contacto</th>
+                  <th>Nota de FQ no exame &#128512; </th>
+                </tr>
+                <tr>
+                  <td>Pedro Migas</td>
+                  <td>915 632 225</td>  
+                  <td>19.6</td>
+                </tr>
+                <tr>
+                  <td>Luís Brandão</td>
+                  <td>965 214 775</td>
+                  <td>19.4</td>
+                </tr>
+                <tr>
+                  <td>João Silva</td>
+                  <td>917 544 932</td>
+                  <td>18.2</td>
+                </tr>
+
+              </table>
+
+              <h2>Submeter Contacto</h2>
+
+              <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </form> 
+            
+<p>Boa sorte a todos os alunos de FQ</p>
+
+        </section>
+    </main>
+    <footer>
+        <!-- UPDATE THIS -->
+        <p>&copy; 715  &#128683; </p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
